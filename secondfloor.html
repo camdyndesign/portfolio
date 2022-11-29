@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+  <title>Selections From the Second Floor | Camdyn Design</title>
+  <link rel="icon" href="images/favicon_c.png">
+
+  <!-- Get access to fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Load external style sheet -->
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive-nav.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+<style>
+
+#introbackground{
+  background-image: url("images/projects/thumbnails/2ndfloor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+
+#projectimages{
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  margin-bottom: -5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #maincontent{
+    margin: 0px auto;
+  }
+  .column{
+    width: 80%;
+  }
+  .row {
+  display: block;
+  }
+}
+
+</style>
+
+<script src="js/responsive-nav.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div id="navbar">
+    <a href="index.html">
+      <img id="navlogo" style="padding:10px;padding-left:20px" src="images/logos/logo_navy.png" height=50px>
+    </a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="work-all.html">Work</a></li>
+        <br class="br-on-mobile">
+        <li><a href="aboutme.html">About Me</a></li>
+        <br class="br-on-mobile">
+        <li class="socialnav"><a href="https://www.instagram.com/camdyndesign/" target="_blank">
+          <div class="navsocialicon" id="instagram"></div></a></li>
+        <li class="socialnav"><a href="mailto: camdyndesign@gmail.com" target="_blank">
+          <div class="navsocialicon" id="email"></div></a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <div id="introbackground"></div>
+
+  <div class="projectintro">
+    <div id="projectdetails">
+      <div class="detailrow">
+        <div class="columnleft">
+          <h1>Second Floor</h1>
+          <p>Branding proposal exploring a playful and fun approach to an exhibition.
+            Inspired by ideas of celebration and breaking the traditional exhibition mold.</p>
+            <br>
+            <!-- <div class="linktoproject">
+              <a href="https://www.portraitofahometown.com" target="_blank">
+               <h5 style="float: left;">Link to Website</h5>
+             <div class="linkarrow">&#10142;</div></a>
+             </div>
+             <br> -->
+            <br class="br-on-mobile">
+         </div>
+
+       <div class="columnright">
+        <div id="border">
+         <h5>Project Type</h6>
+         <h6>Branding</h6>
+         <br>
+         <h5>Role</h5>
+         <h6>Designer</h6>
+         <br>
+         <h5>Tools</h5>
+         <h6>Illustrator and Photoshop</h6>
+         <br>
+         <h5>Timeframe</h5>
+         <h6>Spring 2022</h6>
+        </div>
+       
+       </div>
+   </div>
+</div>
+</div>
+
+<div id="projectimages">
+  <div class="row">
+   <div class="column">
+     <img src="images/projects/2ndfloor/exhibitionmockup_takeaway_orange.jpg" width=100%>
+   </div>
+   <div class="column">
+     <img src="images/projects/2ndfloor/exhibitionmockup_takeaway_pink.jpg" width=100%>
+   </div>
+ </div>
+</div>
+
+<div id="projectimages">
+  <img style="display:block;" src="images/projects/2ndfloor/floorvinyl.png" width="100%">
+</div>
+
+<div id="projectimages">
+  <div class="row">
+   <div class="column">
+     <img src="images/projects/2ndfloor/exhibitionwalls.jpg" width=100%>
+   </div>
+   <div class="column">
+     <img src="images/projects/2ndfloor/exhibitionbooklet.jpg" width=100%>
+   </div>
+ </div>
+</div>
+
+  <a href="work-all.html" id="nodecoration"><div id="viewprojects">View All Projects
+  </div></a>
+
+<footer>
+  <div id="footerlogo">
+    <a href="index.html">
+    <img  src="images/logos/logo_stacked_white.png" width=150px> 
+  </a>
+  </div>
+  <div id="footercolor">
+  <div id="footerbar">
+  <nav id="footertext">
+    <ul>
+      <li><a href="index.html" class="footerlink">Work</a></li>
+      <li ><a href="aboutme.html" class="footerlink">About Me</a></li>
+    </ul>
+    <a href="https://www.instagram.com/camdyndesign/" target="_blank">
+      <div id="social"><div class="footersocialicon" id="instagram"></div>
+    </a>
+   <a href="mailto: camdyndesign@gmail.com" target="_blank">
+     <div class="footersocialicon" id="email"> 
+   </div>
+  </a> </div>
+  </nav>
+</div>
+<div id="copyright">© 2022 CAMDYN DAVIS</div>
+</footer>
+
+<script>
+  var navigation = responsiveNav(".nav-collapse", {
+    animate: true, // Boolean: Use CSS3 transitions, true or false
+    transition: 284, // Integer: Speed of the transition, in milliseconds
+    label: "Menu", // String: Label for the navigation toggle
+    insert: "before", // String: Insert the toggle before or after the navigation
+    customToggle: "", // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+    openPos: "static", // String: Position of the opened nav, relative or static
+    navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+    jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+    init: function () { }, // Function: Init callback
+    open: function () { }, // Function: Open callback
+    close: function () { } // Function: Close callback
+  });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="js/lightbox.js"></script>
+
+<script>
+  lightbox.option({
+    'disableScrolling': true,
+    'fadeDuration': 300,
+    'imageFadeDuration': 800,
+    'resizeDuration': 200,
+    'wrapAround': false
+  })
+</script>
+
+</body>
+
+</html>
