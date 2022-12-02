@@ -15,7 +15,7 @@ class Footer extends HTMLElement {
   <div id="footerbar">
   <nav id="footertext">
     <ul>
-      <li><a href="index.html" class="footerlink">Work</a></li>
+      <li><a href="work.html" class="footerlink">Work</a></li>
       <li ><a href="aboutme.html" class="footerlink">About Me</a></li>
     </ul>
     <br>
