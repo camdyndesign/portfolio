@@ -2,6 +2,7 @@
 body {
   background-color: white;
   color: #2c3843;
+  overscroll-behavior-y: none;
 }
 
 a{
