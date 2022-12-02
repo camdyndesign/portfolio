@@ -35,7 +35,7 @@ class Div extends HTMLElement {
         width:80%;
         max-width: 1800px;
         margin:auto;
-        margin-top: 10px;
+        margin-top: 5px;
       }
       
       .btn {
@@ -44,9 +44,10 @@ class Div extends HTMLElement {
         font-family: poppins, sans-serif;
         font-weight:400;
         font-size: 15px;
-        padding: 0px 0px 3px 0px;
-        margin-right:0px 15px 10px 15px;
-        /* margin-left:15px;
+        padding: 3px 0px;
+        padding-top: 0px;
+        margin-right:15px;
+        margin-left:15px;
         margin-bottom:10px; */
         letter-spacing: 0.15em;
         color: #2c3843;
