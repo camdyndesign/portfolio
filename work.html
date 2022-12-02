@@ -17,6 +17,9 @@
   <link href="css/style.css" type="text/css" rel="stylesheet">
 
 <script src="js/responsive-nav.js"></script>
+<script src="js/header.js"></script>
+<script src="js/work.js"></script>
+<script src="js/footer.js"></script>
 
 <style>
 
@@ -234,25 +237,8 @@
 
 <body>
 
-  <header>
-    <div id="navbar">
-    <a href="index.html">
-      <img id="navlogo" style="padding:10px;padding-left:20px" src="images/logos/logo_navy.png" height=50px>
-    </a>
-    <nav class="nav-collapse">
-      <ul>
-        <li><a href="work-all.html">Work</a></li>
-        <br class="br-on-mobile">
-        <li><a href="aboutme.html">About Me</a></li>
-        <br class="br-on-mobile">
-        <li class="socialnav"><a href="https://www.instagram.com/camdyndesign/" target="_blank">
-          <div class="navsocialicon" id="instagram"></div></a></li>
-        <li class="socialnav"><a href="mailto: camdyndesign@gmail.com" target="_blank">
-          <div class="navsocialicon" id="email"></div></a></li>
-      </ul>
-    </nav>
-  </div>
-  </header>
+  <header-component></header-component>
+
 
 <div id="worktitle">
   <img src="images/logos/work.gif" height="100%"
@@ -260,119 +246,10 @@
   onmouseout="this.src='images/logos/workstop.jpg'" />
 </div>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
-  <button class="btn" onclick="filterSelection('interactive')"> Web Design</button>
-  <button class="btn" onclick="filterSelection('branding')"> Branding</button>
-  <button class="btn" onclick="filterSelection('book')"> Books</button>
-  <button class="btn" onclick="filterSelection('illustration')"> Illustration</button>
-</div>
+<work-component></work-component>
 
-<div class="container">
-
-  <a href="portraitofahometown.html">
-  <div class="filterDiv interactive" id="portraitofahometown">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2022</h5>
-      <h2>Portrait of a Hometown</h2>
-      <h6>web design</h6>
-  </div></div></div></a>
-
-  <a href="determinedgreen.html">
-  <div class="filterDiv interactive"id="determinedgreen">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2021</h5>
-      <h2>Determined Green</h2>
-      <h6>app design</h6>
-  </div></div></div></a>
-
-  <a href="atlasofemotions.html">
-  <div class="filterDiv book illustration"id="atlasofemotions">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2021</h5>
-      <h2>Atlas of Emotions</h2>
-      <h6>book</h6>
-  </div></div></div></a>
-
-  <a href="innovationbydesign.html">
-  <div class="filterDiv book"id="innovationbydesign">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2020</h5>
-      <h2>Innovation By Design</h2>
-      <h6>book</h6>
-  </div></div></div></a>
-
-  <a href="mtumcwebsite.html">
-    <div class="filterDiv interactive"id="mtumcwebsite">
-      <div class="overlaytext">
-        <div class="verticalcenter">
-        <h5>2021-2022</h5>
-        <h2>MTUMC Website</h2>
-        <h6>interactive</h6>
-    </div></div></div></a>
-
-  <a href="secondfloor.html">
-  <div class="filterDiv branding"id="secondfloor">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2021</h5>
-      <h2>Selections from the 2nd Floor Exhibition</h2>
-      <h6>branding</h6>
-  </div></div></div></a>
-
-  <a href="stayingathome.html">
-  <div class="filterDiv book illustration"id="stayingathome">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2020</h5>
-      <h2>Staying At Home</h2>
-      <h6>book, illustration</h6>
-  </div></div></div></a>
-
-  <a href="travelo.html">
-  <div class="filterDiv branding illustration"id="travelo">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-        <h5>2021</h5>
-        <h2>Travelo Social Media</h2>
-        <h6>branding, illustration</h6>
-  </div></div></div></a>
-</div>
-
-
-
-
-<footer>
-  <div id="footerlogo">
-    <a href="index.html">
-    <img  src="images/logos/logo_stacked_white.png" width=150px> 
-  </a>
-  </div>
-  <div id="footercolor">
-  <div id="footerbar">
-  <nav id="footertext">
-    <ul>
-      <li><a href="index.html" class="footerlink">Work</a></li>
-      <li ><a href="aboutme.html" class="footerlink">About Me</a></li>
-    </ul>
-    <br>
-    <a href="https://www.instagram.com/camdyndesign/" target="_blank">
-      <div id="social"><div class="footersocialicon" id="instagram"></div>
-    </a>
-   <a href="mailto: camdyndesign@gmail.com" target="_blank">
-     <div class="footersocialicon" id="email"> 
-   </div>
-  </a> </div>
-  </nav>
-</div>
-</div>
-<div id="copyright">© 2022 CAMDYN DAVIS</div>
-</footer>
-
+<footer-component></footer-component>
+  
 <script>
   var navigation = responsiveNav(".nav-collapse", {
     animate: true, // Boolean: Use CSS3 transitions, true or false
