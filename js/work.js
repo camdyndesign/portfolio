@@ -248,7 +248,7 @@ class Div extends HTMLElement {
       <div class="verticalcenter">
       <h5>2020</h5>
       <h2>Staying At Home</h2>
-      <h6>book, illustration</h6>
+      <h6>book</h6>
   </div></div></div></a>
 
   <a href="travelo.html">
