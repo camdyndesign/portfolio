@@ -128,6 +128,13 @@ class Div extends HTMLElement {
         background-position: center; 
       }
       
+       #travelo{
+        background-image: url(images/projects/thumbnails/bookmark.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+      }
+      
       .overlaytext{
         margin: auto;
         height: 100%;
@@ -184,6 +191,7 @@ class Div extends HTMLElement {
   <button class="btn" onclick="filterSelection('interactive')"> Web Design</button>
   <button class="btn" onclick="filterSelection('branding')"> Branding</button>
   <button class="btn" onclick="filterSelection('book')"> Books</button>
+  <button class="btn" onclick="filterSelection('animation')"> Animation</button>
   <button class="btn" onclick="filterSelection('illustration')"> Illustration</button>
 </div>
 
@@ -214,6 +222,15 @@ class Div extends HTMLElement {
       <h5>2021</h5>
       <h2>Atlas of Emotions</h2>
       <h6>book</h6>
+  </div></div></div></a>
+  
+    <a href="bookmark.html">
+  <div class="filterDiv animation"id="bookmark">
+    <div class="overlaytext">
+      <div class="verticalcenter">
+      <h5>2022</h5>
+      <h2>How to Use a Bookmark</h2>
+      <h6>animation</h6>
   </div></div></div></a>
 
   <a href="innovationbydesign.html">
