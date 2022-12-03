@@ -128,7 +128,7 @@ class Div extends HTMLElement {
         background-position: center; 
       }
       
-       #travelo{
+      #bookmark{
         background-image: url(images/projects/thumbnails/bookmark.jpg);
         background-repeat: no-repeat;
         background-size: cover;
