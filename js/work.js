@@ -287,7 +287,7 @@ class Div extends HTMLElement {
         <h6>branding</h6>
   </div></div></div></a>
 
-  <a href="kinetictype.html">
+  <a href="kinetictype">
   <div class="filterDiv animation" id="kinetictype">
     <div class="overlaytext">
       <div class="verticalcenter">
