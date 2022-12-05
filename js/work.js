@@ -135,6 +135,13 @@ class Div extends HTMLElement {
         background-position: center; 
       }
       
+      #kinetictype{
+        background-image: url(images/projects/thumbnails/kinetictype.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+      }
+      
       .overlaytext{
         margin: auto;
         height: 100%;
