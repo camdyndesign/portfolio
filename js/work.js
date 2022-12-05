@@ -48,12 +48,11 @@ class Div extends HTMLElement {
         padding-top: 0px;
         margin-right:15px;
         margin-left:15px;
-        margin-bottom:10px; */
         letter-spacing: 0.15em;
         color: #2c3843;
         background-color: #ffffff00;
         text-transform: uppercase;
-        border-bottom:2px solid #ffffff00;;
+        border-bottom: 2px solid #ffffff00;;
       }
       
       .btn:hover {
@@ -176,8 +175,10 @@ class Div extends HTMLElement {
         }
       
         .btn{
-          font-size: 12px;
-          border: none;
+          font-size: 10px;
+          padding: 2px 0px;
+          padding-top: 0px;
+          border-bottom: 2px solid #ffffff00;;
           outline: none;
           margin-right:5px;
           margin-left:5px;
