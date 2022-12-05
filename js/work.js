@@ -286,6 +286,16 @@ class Div extends HTMLElement {
         <h6>branding</h6>
   </div></div></div></a>
 </div>
+
+  <a href="kinetictype.html">
+  <div class="filterDiv brandingid="kinetictype">
+    <div class="overlaytext">
+      <div class="verticalcenter">
+        <h5>2022</h5>
+        <h2>On the Steps of the FBI</h2>
+        <h6>animation</h6>
+  </div></div></div></a>
+</div>
       `;
     }
   }
