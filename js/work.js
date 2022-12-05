@@ -175,7 +175,6 @@ class Div extends HTMLElement {
         }
       
         .btn{
-          font-size: 10px;
           padding: 2px 0px;
           padding-top: 0px;
           border-bottom: 2px solid #ffffff00;;
