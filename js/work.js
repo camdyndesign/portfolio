@@ -283,7 +283,7 @@ class Div extends HTMLElement {
       <div class="verticalcenter">
         <h5>2021</h5>
         <h2>Travelo Social Media</h2>
-        <h6>branding</h6>
+        <h6>branding, illustration</h6>
   </div></div></div></a>
 
   <a href="kinetictype.html">
