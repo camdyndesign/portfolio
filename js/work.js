@@ -285,7 +285,6 @@ class Div extends HTMLElement {
         <h2>Travelo Social Media</h2>
         <h6>branding</h6>
   </div></div></div></a>
-</div>
 
   <a href="kinetictype.html">
   <div class="filterDiv animation" id="kinetictype">
@@ -295,7 +294,10 @@ class Div extends HTMLElement {
         <h2>On the Steps of the FBI</h2>
         <h6>animation</h6>
   </div></div></div></a>
-</div>
+
+
+
+
 </div>
       `;
     }
