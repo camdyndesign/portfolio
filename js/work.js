@@ -278,7 +278,7 @@ class Div extends HTMLElement {
   </div></div></div></a>
 
   <a href="travelo.html">
-  <div class="filterDiv brandingid="travelo">
+  <div class="filterDiv branding" id="travelo">
     <div class="overlaytext">
       <div class="verticalcenter">
         <h5>2021</h5>
@@ -288,7 +288,7 @@ class Div extends HTMLElement {
 </div>
 
   <a href="kinetictype.html">
-  <div class="filterDiv brandingid="kinetictype">
+  <div class="filterDiv animation" id="kinetictype">
     <div class="overlaytext">
       <div class="verticalcenter">
         <h5>2022</h5>
