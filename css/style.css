@@ -302,7 +302,6 @@ a.footerlink:active {
 .nav-collapse li {
   float: left;
   width: 100%;
-
   display: block;
   padding: 18px 20px 0px 10px;
   font-family: poppins, sans-serif;
@@ -316,7 +315,7 @@ a.footerlink:active {
   border-bottom: 2px solid #2c3843;
   cursor: pointer;
 
-  transition-property: border;
+  transition-property: border-color;
   transition-timing-function: ease;
   transition-duration: 0.2s;
 }
