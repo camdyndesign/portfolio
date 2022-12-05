@@ -296,6 +296,7 @@ class Div extends HTMLElement {
         <h6>animation</h6>
   </div></div></div></a>
 </div>
+</div>
       `;
     }
   }
