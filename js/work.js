@@ -191,6 +191,7 @@ class Div extends HTMLElement {
   <button class="btn" onclick="filterSelection('interactive')"> Web Design</button>
   <button class="btn" onclick="filterSelection('branding')"> Branding</button>
   <button class="btn" onclick="filterSelection('book')"> Books</button>
+  <br class="br-on-mobile">
   <button class="btn" onclick="filterSelection('animation')"> Animation</button>
   <button class="btn" onclick="filterSelection('illustration')"> Illustration</button>
 </div>
