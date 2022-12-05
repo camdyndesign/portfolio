@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+  <title>On the Steps of the FBI | Camdyn Design</title>
+  <link rel="icon" href="images/favicon_c.png">
+
+  <!-- Get access to fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Load external style sheet -->
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive-nav.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <script src="js/header.js"></script>
+<script src="js/work.js"></script>
+<script src="js/footer.js"></script>
+
+<style>
+
+#introbackground{
+  background-color: #1c2920;
+  height: 50vh;
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+#introimage{
+  height: 100%;
+  width:auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#projectimages{
+  position: relative;
+  background-color: white;
+}
+
+#youtubevideo{
+  aspect-ratio: 16 / 9;
+  width:100%;
+}
+
+
+</style>
+
+<script src="js/responsive-nav.js"></script>
+
+</head>
+
+<body>
+
+  <header-component></header-component>
+
+<div id="introbackground">
+  <img id="introimage" src="images/projects/thumbnails/kinetictype.jpg">
+</div>
+
+</div>
+  <div class="projectintro">
+    <div id="projectdetails">
+      <div class="detailrow">
+        <div class="columnleft">
+          <h1>On the Steps of the FBI</h1>
+          <p>An explortion in animating type in After Effects. Based on a scene from Season 4, Episode 12 of Criminal Minds.  
+          </p>
+            <br>
+            <div class="linktoproject">
+              <a href="https://youtu.be/Yi0i0VE1Rwc" target="_blank">
+               <h5 style="float: left;">Link to Video</h5>
+             <div class="linkarrow">&#10142;</div></a>
+             </div>
+             <br>
+            <br class="br-on-mobile">
+         </div>
+
+       <div class="columnright">
+        <div id="border">
+         <h5>Project Type</h6>
+         <h6>Animation</h6>
+         <br>
+         <h5>Role</h5>
+         <h6>Editor and Typographer</h6>
+         <br>
+         <h5>Tools</h5>
+         <h6>After Effects and Audition</h6>
+         <br>
+         <h5>Timeframe</h5>
+         <h6>January 2022</h6>
+        </div>
+       
+       </div>
+   </div>
+</div>
+</div>
+
+<div id="projectimages">
+  <img style="display:block;" src="images/projects/kinetictype/dashesandelipses.gif" width="100%">
+</div>
+
+<div id="projectimages">
+  <img style="display:block;" src="images/projects/kinetictype/typethumbnails.jpg" width="100%">
+</div>
+
+<div id="projectimages">
+  <img style="display:block;" src="images/projects/kinetictype/onthestepsofthefbi.gif" width="100%">
+</div>
+
+<div id="projectimages">
+
+  <div id="youtubevideo">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yi0i0VE1Rwc?rel=0" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+  <a href="work.html" id="nodecoration"><div id="viewprojects">View All Projects
+  </div></a>
+
+<footer-component></footer-component>
+
+<script>
+  var navigation = responsiveNav(".nav-collapse", {
+    animate: true, // Boolean: Use CSS3 transitions, true or false
+    transition: 284, // Integer: Speed of the transition, in milliseconds
+    label: "Menu", // String: Label for the navigation toggle
+    insert: "before", // String: Insert the toggle before or after the navigation
+    customToggle: "", // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+    openPos: "static", // String: Position of the opened nav, relative or static
+    navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+    jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+    init: function () { }, // Function: Init callback
+    open: function () { }, // Function: Open callback
+    close: function () { } // Function: Close callback
+  });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="js/lightbox.js"></script>
+
+<script>
+  lightbox.option({
+    'disableScrolling': true,
+    'fadeDuration': 300,
+    'imageFadeDuration': 800,
+    'resizeDuration': 200,
+    'wrapAround': false
+  })
+</script>
+
+</body>
+
+</html>
