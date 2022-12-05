@@ -43,7 +43,7 @@ class Div extends HTMLElement {
         outline: none;
         font-family: poppins, sans-serif;
         font-weight:400;
-        font-size: 15px;
+        font-size: 12px;
         padding: 3px 0px;
         padding-top: 0px;
         margin-right:15px;
