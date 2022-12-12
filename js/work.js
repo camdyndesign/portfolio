@@ -141,6 +141,20 @@ class Div extends HTMLElement {
         background-position: center; 
       }
       
+      #folklore{
+        background-image: url(images/projects/thumbnails/folklore.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+      }
+      
+      #penlandxappstate{
+        background-image: url(images/projects/thumbnails/penland.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+      }
+      
       .overlaytext{
         margin: auto;
         height: 100%;
@@ -267,6 +281,15 @@ class Div extends HTMLElement {
       <h2>Selections from the 2nd Floor Exhibition</h2>
       <h6>branding</h6>
   </div></div></div></a>
+  
+  <a href="penlandxappstate.html">
+  <div class="filterDiv branding"id="penlandxappstate">
+    <div class="overlaytext">
+      <div class="verticalcenter">
+      <h5>2022</h5>
+      <h2>PenlandxAppState</h2>
+      <h6>branding</h6>
+  </div></div></div></a>
 
   <a href="stayingathome.html">
   <div class="filterDiv book" id="stayingathome">
@@ -284,6 +307,15 @@ class Div extends HTMLElement {
         <h5>2021</h5>
         <h2>Travelo Social Media</h2>
         <h6>branding, illustration</h6>
+  </div></div></div></a>
+  
+  <a href="folklore.html">
+  <div class="filterDiv animation illustration" id="folklore">
+    <div class="overlaytext">
+      <div class="verticalcenter">
+        <h5>2022</h5>
+        <h2>Women in Folklore</h2>
+        <h6>illustration, animation</h6>
   </div></div></div></a>
 
   <a href="kinetictype.html">
