@@ -148,12 +148,12 @@ class Div extends HTMLElement {
         background-position: center; 
       }
       
-      #penlandxappstate{
-        background-image: url(images/projects/thumbnails/penland.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; 
-      }
+//       #penlandxappstate{
+//         background-image: url(images/projects/thumbnails/penland.jpg);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-position: center; 
+//       }
       
       .overlaytext{
         margin: auto;
@@ -282,14 +282,14 @@ class Div extends HTMLElement {
       <h6>branding</h6>
   </div></div></div></a>
   
-  <a href="penlandxappstate.html">
-  <div class="filterDiv branding"id="penlandxappstate">
-    <div class="overlaytext">
-      <div class="verticalcenter">
-      <h5>2022</h5>
-      <h2>PenlandxAppState</h2>
-      <h6>branding</h6>
-  </div></div></div></a>
+//   <a href="penlandxappstate.html">
+//   <div class="filterDiv branding"id="penlandxappstate">
+//     <div class="overlaytext">
+//       <div class="verticalcenter">
+//       <h5>2022</h5>
+//       <h2>PenlandxAppState</h2>
+//       <h6>branding</h6>
+//   </div></div></div></a>
 
   <a href="stayingathome.html">
   <div class="filterDiv book" id="stayingathome">
