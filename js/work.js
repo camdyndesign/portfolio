@@ -112,12 +112,6 @@ class Div extends HTMLElement {
       }
       </style>
 
-  <div id="worktitle">
-    <img src="images/logos/work.gif" height="100%"
-    onmouseover="this.src='images/logos/work.gif'" 
-    onmouseout="this.src='images/logos/workstop.jpg'" />
-  </div>
-
   <div id="btnContainer">
     <button id="all">All</button>
     <button id="web">Web Design</button>
