@@ -12,7 +12,7 @@ class Header extends HTMLElement {
       </a>
       <nav class="nav-collapse">
         <ul>
-          <li><a href="work.html">Work</a></li>
+          <li><a href="work-all.html">Work</a></li>
           <br class="br-on-mobile">
           <li><a href="aboutme.html">About Me</a></li>
           <br class="br-on-mobile">
