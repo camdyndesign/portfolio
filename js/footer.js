@@ -26,7 +26,7 @@ class Footer extends HTMLElement {
       </nav>
 
     <div id="copyright">
-      <h5>© 2023 Camdyn Davis Design</h5>
+      <h5>© 2025 Camdyn Davis Design</h5>
       <h6>designed and coded with care</h6></div>
 
   </div>
